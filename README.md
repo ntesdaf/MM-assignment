@@ -1,2 +1,2 @@
 # MM-assignment
-This is my answer to logo task
+This is my answer to the "MM" logo task
