@@ -73,7 +73,7 @@ public class Main {
                     }
                 }
             }
-            if( i < n ){
+            if (i < n) {
             System.out.println();
             }
         }
