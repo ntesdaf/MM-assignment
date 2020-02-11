@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String message = "Enter odd number bigger than 2 and smaller than 10 000:";
+        String message = "Enter an odd number bigger than 2 and smaller than 10 000:";
         System.out.println(message);
         int n = Integer.parseInt(scanner.nextLine());
         boolean flag = true;
