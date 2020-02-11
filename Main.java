@@ -13,7 +13,6 @@ public class Main {
         while (flag) {
             if (n % 2 != 0 && n > 2 && n < 10000) {
                 flag = false;
-                break;
             } else {
                 System.out.println("Invalid number!");
                 System.out.println(message);
@@ -74,7 +73,9 @@ public class Main {
                     }
                 }
             }
+            if( i < n ){
             System.out.println();
+            }
         }
     }
 }
