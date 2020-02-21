@@ -5,10 +5,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String error = "Invalid number!";
         String message = "Enter an odd number bigger than 2 and smaller than 10 000:";
-        System.out.println(message);
         boolean isInt = false;
-        String number = scanner.nextLine();
         int n;
+        System.out.println(message);
+        String number = scanner.nextLine();
         boolean flag = true;
         while (flag) {
             String[] numberArray = number.split("");
