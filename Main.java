@@ -1,15 +1,12 @@
 package job;
-
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
+        String error = "Invalid number!";
         String message = "Enter an odd number bigger than 2 and smaller than 10 000:";
         System.out.println(message);
         boolean isInt = false;
-        boolean isDouble = false;
         String number = scanner.nextLine();
         int n;//= Integer.parseInt(scanner.nextLine());
         boolean flag = true;
@@ -17,8 +14,7 @@ public class Main {
             String[] numberArray = number.split("");
             for (int i = 0; i < numberArray.length; i++) {
                 if (numberArray[i].equals(".")) {
-                    isDouble = true;
-                    System.out.println("Invalid number!");
+                    System.out.println(error);
                     System.out.println(message);
                     number = scanner.nextLine();
                     break;
@@ -89,7 +85,7 @@ public class Main {
                     }
                     flag = false;
                 } else {
-                    System.out.println("Invalid number!");
+                    System.out.println(error);
                     System.out.println(message);
                     number = scanner.nextLine();
                 }
