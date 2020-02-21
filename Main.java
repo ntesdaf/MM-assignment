@@ -8,7 +8,7 @@ public class Main {
         System.out.println(message);
         boolean isInt = false;
         String number = scanner.nextLine();
-        int n;//= Integer.parseInt(scanner.nextLine());
+        int n;
         boolean flag = true;
         while (flag) {
             String[] numberArray = number.split("");
